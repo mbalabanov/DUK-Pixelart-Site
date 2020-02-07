@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Scrolling Nav - Start Bootstrap Template</title>
+  <title>DUK Pixel Art Project</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +23,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Pixel Art Comic Project</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,10 +33,10 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a class="nav-link js-scroll-trigger" href="#comic">Comic</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#videos">Videos</a>
           </li>
         </ul>
       </div>
@@ -45,45 +45,190 @@
 
   <header class="bg-primary text-white">
     <div class="container text-center">
-      <h1>Welcome to Scrolling Nav</h1>
-      <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
+      <h1>Pixel Art Comic Project</h1>
+      <p class="lead">Marin Balabanov Creates a Pixel Art Comic on Retro Hardware</p>
     </div>
   </header>
 
   <section id="about">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>About this page</h2>
-          <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+        <div class="col-lg-8 offset-lg-2 mx-auto">
+          <h2>About this Project</h2>
+          <p class="lead">This project is part of the Media Arts Histories program of the Danube University Krems. The objective is to refurbish a thirty year old Atari computer, upgrade it and then - well within the technical constraints of the day - to use it to create a five page comic.</p>
           <ul>
-            <li>Clickable nav links that smooth scroll to page sections</li>
-            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+            <li><a href="#comic">Pixel Art Comic Pages</a></li>
+            <li><a href="#video">Video Documentation of the Process</a></li>
+            <li><a href="files/future-was-16-bit-duk-project-balabanov.pdf" target="_blank">Project Paper as PDF</a></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="services" class="bg-light">
+  <section id="comic"  class="bg-light">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Services we offer</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+        <div class="col-lg-11 offset-lg-1 mx-auto text-center">
+          <h2>The Pixel Art Comic</h2>
+          <p class="lead">The finished pixel art comic:</p>
+
+          <div class="row">
+            <div class="col-lg-2 text-center">
+              <p><img src="img/pixelart-comic-p1.png" class="img-fluid" alt="Comic Page 1"></p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#page1">
+                Zoom
+              </button>
+            </div>
+            <div class="col-lg-2 text-center">
+              <p><img src="img/pixelart-comic-p2.png" class="img-fluid" alt="Comic Page 2"></p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#page2">
+                Zoom
+              </button>
+            </div>
+            <div class="col-lg-2 text-center">
+              <p><img src="img/pixelart-comic-p3.png" class="img-fluid" alt="Comic Page 3"></p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#page3">
+                Zoom
+              </button>
+            </div>
+            <div class="col-lg-2 text-center">
+              <p><img src="img/pixelart-comic-p4.png" class="img-fluid" alt="Comic Page 4"></p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#page4">
+                Zoom
+              </button>
+            </div>
+            <div class="col-lg-2 text-center">
+              <p><img src="img/pixelart-comic-p5.png" class="img-fluid" alt="Comic Page 5"></p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#page5">
+                Zoom
+              </button>                
+            </div>
+            <div class="col-lg-2 text-center">
+              <p><a href="files/pixel- art-comic.pdf" target="_blank">Download full comic as PDF</a></p>
+              <p><a href="files/pixel- art-comic.pdf" target="_blank"><img src="img/full-comic.png" class="img-fluid" alt="Comic Page 5"></a></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="contact">
+<!-- Modals -->
+<div class="modal fade" id="page1" tabindex="-1" role="dialog" aria-labelledby="Comic Page 1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <p><img src="img/pixelart-comic-p1.png" class="img-fluid" alt="Comic Page 1"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="page2" tabindex="-1" role="dialog" aria-labelledby="Comic Page 2" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <p><img src="img/pixelart-comic-p2.png" class="img-fluid" alt="Comic Page 2"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="page3" tabindex="-1" role="dialog" aria-labelledby="Comic Page 3" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <p><img src="img/pixelart-comic-p3.png" class="img-fluid" alt="Comic Page 3"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="page4" tabindex="-1" role="dialog" aria-labelledby="Comic Page 4" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <p><img src="img/pixelart-comic-p4.png" class="img-fluid" alt="Comic Page 4"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="page5" tabindex="-1" role="dialog" aria-labelledby="Comic Page 5" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <p><img src="img/pixelart-comic-p5.png" class="img-fluid" alt="Comic Page 5"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <section id="videos">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Contact us</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+        <div class="col-lg-8 mx-auto text-center">
+          <h2>Videos</h2>
+          <p class="lead">Three videos documenting the process of upgrading the hardware and painting the pixel art comic.</p>
+          <h3>Part I: Upgrading the Hardware</h3>
+          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/3zo5ScIFcc0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+          <a>Direct Link to video: <a href="https://youtu.be/3zo5ScIFcc0">https://youtu.be/3zo5ScIFcc0</a></p>
+          <p>&nbsp;</p>
+          <h3>Part II: Initial Designs and Proof-of-Concept</h3>
+          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/yfBn6Pzgl7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+          <a>Direct Link to video: <a href="https://youtu.be/yfBn6Pzgl7U">https://youtu.be/yfBn6Pzgl7U</a></p>
+          <p>&nbsp;</p>
+          <h3>Part III: Drawing and Finishing the Comic</h3>
+          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/uVv2FdP-ZIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+          <a>Direct Link to video: <a href="https://youtu.be/uVv2FdP-ZIU">https://youtu.be/uVv2FdP-ZIU</a></p>
+          <p>&nbsp;</p>
         </div>
       </div>
     </div>
@@ -92,7 +237,8 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Produced by Marin Balabanov<br>
+      Template by <a href="https://startbootstrap.com/templates/scrolling-nav/">Startbootstrap</a></p>
     </div>
     <!-- /.container -->
   </footer>
