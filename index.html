@@ -1,265 +1,249 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <title>DUK Pixel Art Project</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/scrolling-nav.css" rel="stylesheet">
-
-  <style>
-	.full-width {
-		width: 100%;
-	}
-  </style>
-
+    <title>DUK Pixel Art Project</title>
 </head>
-
 <body id="page-top">
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Pixel Art Comic Project</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#comic">Comic</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#videos">Videos</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <header class="bg-primary text-white">
-    <div class="container text-center">
-      <img src="img/pixelartproject.png" alt="Pixel Art Comic Project" class="img-fluid">
-      <h1>Pixel Art Comic Project</h1>
-      <p class="lead">Marin Balabanov Creates a Pixel Art Comic on Retro Hardware<br><a class="btn btn-outline-light btn-lg" href="files/future-was-16-bit-duk-project-balabanov.pdf" target="_blank">Download Project Documentation PDF</a></p>
-    </div>
-  </header>
-
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2 mx-auto">
-          <h2>About this Project</h2>
-          <p class="lead">This project is part of the <a href="https://www.donau-uni.ac.at/en/studies/mediaarthistories.html" target="_blank">Media Arts Histories</a> program of the <a href="https://www.donau-uni.ac.at/en.html" target="_blank">Danube University Krems.</a> The objective is to refurbish a thirty year old Atari computer, upgrade it and then - well within the technical constraints of the day - to use it to create a five page comic.</p>
-          <ul>
-            <li><a href="#comic">Pixel Art Comic Pages</a></li>
-            <li><a href="#video">Video Documentation of the Process</a></li>
-            <li><a href="files/future-was-16-bit-duk-project-balabanov.pdf" target="_blank">Project Documentation as PDF</a></li>
-            <li><a href="https://github.com/mbalabanov/DUK-Pixelart-Site" target="_blank">Github Repository of this Website</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="comic"  class="bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-11 offset-lg-1 mx-auto text-center">
-          <h2>The Pixel Art Comic</h2>
-          <p class="lead">The finished pixel art comic:</p>
-
-          <div class="row">
-            <div class="col-lg-2 text-center">
-              <p><a data-toggle="modal" data-target="#page1"><img src="img/pixelart-comic-p1.png" class="img-fluid" alt="Comic Page 1"></a></p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#page1">
-                Zoom
-              </button>
+        <nav class="navbar navbar-expand-lg navbar-primary bg-light fixed-top border-bottom">
+            <div class="container-fluid px-5 py-2">
+                <a class="navbar-brand text-uppercase fw-bolder" href="#page-top">Pixel Art Comic</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPixelArt" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarPixelArt">
+                    <ul class="navbar-nav me-auto text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#comic">Comic</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#videos">Videos</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-lg-2 text-center">
-              <p><a data-toggle="modal" data-target="#page2"><img src="img/pixelart-comic-p2.png" class="img-fluid" alt="Comic Page 2"></a></p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#page2">
-                Zoom
-              </button>
+        </nav>
+
+        <header class="bg-primary text-white mb-5 py-5">
+            <div class="container text-center mt-5">
+                <img src="img/pixelartproject.png" alt="Pixel Art Comic Project" class="img-fluid">
+                <h1 class="fw-bolder text-uppercase">Pixel Art Comic Project</h1>
+                <p class="lead">Marin Balabanov Creates a Pixel Art Comic on Retro Hardware<p>
+                <p><a class="btn btn-outline-light btn-lg" href="files/future-was-16-bit-duk-project-balabanov.pdf" target="_blank">Download Project Documentation PDF</a></p>
             </div>
-            <div class="col-lg-2 text-center">
-              <p><a data-toggle="modal" data-target="#page3"><img src="img/pixelart-comic-p3.png" class="img-fluid" alt="Comic Page 3"></a></p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#page3">
-                Zoom
-              </button>
+        </header>
+
+        <section id="about" class="container">
+            <div class="row py-5">
+                <div class="col-lg-8 offset-lg-2 mx-auto mb-5">
+                    <h2>About this Project</h2>
+                    <p class="lead">This project is part of the <a href="https://www.donau-uni.ac.at/en/studies/mediaarthistories.html" target="_blank">Media Arts Histories</a> program of the <a href="https://www.donau-uni.ac.at/en.html" target="_blank">Danube University Krems.</a> The objective is to refurbish a thirty year old Atari computer, upgrade it and then - well within the technical constraints of the day - to use it to create a five page comic.</p>
+                    <ul>
+                        <li><a href="#comic">Pixel Art Comic Pages</a><br></li>
+                        <li><a href="#video">Video Documentation of the Process</a></li>
+                        <li><a href="files/future-was-16-bit-duk-project-balabanov.pdf" target="_blank">Project Documentation as PDF</a></li>
+                        <li><a href="https://github.com/mbalabanov/DUK-Pixelart-Site" target="_blank">Github Repository of this Website</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-lg-2 text-center">
-              <p><a data-toggle="modal" data-target="#page4"><img src="img/pixelart-comic-p4.png" class="img-fluid" alt="Comic Page 4"></a></p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#page4">
-                Zoom
-              </button>
+        </section>
+
+        <section id="comic"  class="bg-light border-top">
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-md-12 text-center">
+                        <h3 class="text-uppercase">The Pixel Art Comic</h3>
+                        <p class="lede">The Finished Pixel Art Comic</p>
+                    </div>
+                </div>
+                <div class="row pb-5">
+                    <div class="col-md-2 text-center">
+                        <img src="img/pixelart-comic-p1.png" class="img-fluid p-2" alt="Comic Page 1" data-bs-toggle="modal" data-bs-target="#modalimage1"><br>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalimage1">
+                            Page 1
+                        </button>
+                    
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalimage1" tabindex="-1" aria-labelledby="modalimage1" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="modalimage1">Pixel Art Comic Page 1</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="img/pixelart-comic-p1.png" class="img-fluid w-100" alt="Comic Page 1">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-2 text-center">
+                        <img src="img/pixelart-comic-p2.png" class="img-fluid p-2" alt="Comic Page 2" data-bs-toggle="modal" data-bs-target="#modalimage2"><br>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalimage2">
+                            Page 2
+                        </button>
+                    
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalimage2" tabindex="-1" aria-labelledby="modalimage2" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="modalimage2">Pixel Art Comic Page 2</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="img/pixelart-comic-p2.png" class="img-fluid w-100" alt="Comic Page 2">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-2 text-center">
+                        <img src="img/pixelart-comic-p3.png" class="img-fluid p-2" alt="Comic Page 3" data-bs-toggle="modal" data-bs-target="#modalimage3"><br>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalimage3">
+                            Page 3
+                        </button>
+                    
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalimage3" tabindex="-1" aria-labelledby="modalimage3" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="modalimage3">Pixel Art Comic Page 3</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="img/pixelart-comic-p3.png" class="img-fluid w-100" alt="Comic Page 3">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-2 text-center">
+                        <img src="img/pixelart-comic-p4.png" class="img-fluid p-2" alt="Comic Page 4" data-bs-toggle="modal" data-bs-target="#modalimage4"><br>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalimage4">
+                            Page 4
+                        </button>
+                    
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalimage4" tabindex="-1" aria-labelledby="modalimage4" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="modalimage4">Pixel Art Comic Page 4</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="img/pixelart-comic-p4.png" class="img-fluid w-100" alt="Comic Page 4">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-2 text-center">
+                        <img src="img/pixelart-comic-p5.png" class="img-fluid p-2" alt="Comic Page 5" data-bs-toggle="modal" data-bs-target="#modalimage5"><br>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalimage5">
+                            Page 5
+                        </button>
+                    
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalimage5" tabindex="-1" aria-labelledby="modalimage5" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="modalimage5">Pixel Art Comic Page 5</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="img/pixelart-comic-p5.png" class="img-fluid w-100" alt="Comic Page 5">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-2 text-center">
+                        <p><a href="files/pixel-art-comic.pdf" target="_blank"><img src="img/full-comic.png" class="img-fluid my-4" alt="Full comic as PDF"></a></p>
+                        <p><a href="files/pixel-art-comic.pdf" target="_blank" class="btn btn-primary text-decoration-none">Full comic as PDF</a></p>
+                    </div>
+            
+                </div> <!-- Comic Row End -->
+            </div> <!-- Comic Container End -->
+        </section> <!-- Comic Section End -->
+
+        <section id="videos" class="bg-primary">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-lg-8 mx-auto text-center text-white">
+                        <h2 class="text-uppercase">Videos</h2>
+                        <p class="lead mb-5">Three videos documenting the process of upgrading the hardware and painting the pixel art comic.</p>
+                        <h3 class="text-uppercase">Part I: Upgrading the Hardware</h3>
+                        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/3zo5ScIFcc0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                        <p>Direct Link to video: <a href="https://youtu.be/3zo5ScIFcc0" target="_blank" class="btn btn-outline-light btn-sm">https://youtu.be/3zo5ScIFcc0</a></p>
+                        <p>&nbsp;</p>
+                        <h3 class="text-uppercase">Part II: Story and Initial Designs</h3>
+                        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/yfBn6Pzgl7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                        <p>Direct Link to video: <a href="https://youtu.be/yfBn6Pzgl7U" target="_blank" class="btn btn-outline-light btn-sm">https://youtu.be/yfBn6Pzgl7U</a></p>
+                        <p>&nbsp;</p>
+                        <h3 class="text-uppercase">Part III: Drawing the Pixel Art Comic</h3>
+                        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/uVv2FdP-ZIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                        <p>Direct Link to video: <a href="https://youtu.be/uVv2FdP-ZIU" target="_blank" class="btn btn-outline-light btn-sm">https://youtu.be/uVv2FdP-ZIU</a></p>
+                        <p>&nbsp;</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-2 text-center">
-              <p><a data-toggle="modal" data-target="#page5"><img src="img/pixelart-comic-p5.png" class="img-fluid" alt="Comic Page 5"></a></p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#page5">
-                Zoom
-              </button>                
+        </section>
+
+        <!-- Footer -->
+        <footer class="py-5 bg-light border-top">
+            <div class="container">
+                <p class="m-0 text-center">Produced by Marin Balabanov<br>
+                Created using <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank" class="text-decoration-none">Bootstrap 5</a></p>
             </div>
-            <div class="col-lg-2 text-center">
-              <p><a href="files/pixel- art-comic.pdf" target="_blank"><img src="img/full-comic.png" class="img-fluid" alt="Comic Page 5"></a></p>
-              <p><a href="files/pixel- art-comic.pdf" target="_blank">Download full comic as PDF</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+            <!-- /.container -->
+        </footer>
 
-<!-- Modals -->
-<div class="modal fade" id="page1" tabindex="-1" role="dialog" aria-labelledby="Comic Page 1" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Pixel Art Comic Page 1</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body text-center">
-        <p><img src="img/pixelart-comic-p1.png" class="full-width" alt="Comic Page 1"></p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="page2" tabindex="-1" role="dialog" aria-labelledby="Comic Page 2" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Pixel Art Comic Page 2</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body text-center">
-        <p><img src="img/pixelart-comic-p2.png" class="full-width" alt="Comic Page 2"></p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="page3" tabindex="-1" role="dialog" aria-labelledby="Comic Page 3" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Pixel Art Comic Page 3</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body text-center">
-        <p><img src="img/pixelart-comic-p3.png" class="full-width" alt="Comic Page 3"></p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="page4" tabindex="-1" role="dialog" aria-labelledby="Comic Page 4" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Pixel Art Comic Page 4</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body text-center">
-        <p><img src="img/pixelart-comic-p4.png" class="full-width" alt="Comic Page 4"></p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="page5" tabindex="-1" role="dialog" aria-labelledby="Comic Page 5" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Pixel Art Comic Page 5</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body text-center">
-        <p><img src="img/pixelart-comic-p5.png" class="full-width" alt="Comic Page 5"></p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-  <section id="videos">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <h2>Videos</h2>
-          <p class="lead">Three videos documenting the process of upgrading the hardware and painting the pixel art comic.</p>
-          <h3>Part I: Upgrading the Hardware</h3>
-          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/3zo5ScIFcc0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-          <a>Direct Link to video: <a href="https://youtu.be/3zo5ScIFcc0" target="_blank">https://youtu.be/3zo5ScIFcc0</a></p>
-          <p>&nbsp;</p>
-          <h3>Part II: Initial Designs and Proof-of-Concept</h3>
-          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/yfBn6Pzgl7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-          <a>Direct Link to video: <a href="https://youtu.be/yfBn6Pzgl7U" target="_blank">https://youtu.be/yfBn6Pzgl7U</a></p>
-          <p>&nbsp;</p>
-          <h3>Part III: Drawing and Finishing the Comic</h3>
-          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/uVv2FdP-ZIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-          <a>Direct Link to video: <a href="https://youtu.be/uVv2FdP-ZIU" target="_blank">https://youtu.be/uVv2FdP-ZIU</a></p>
-          <p>&nbsp;</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Produced by Marin Balabanov<br>
-      Template by <a href="https://startbootstrap.com/templates/scrolling-nav/">Startbootstrap</a></p>
-    </div>
-    <!-- /.container -->
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom JavaScript for this theme -->
-  <script src="js/scrolling-nav.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
-
 </html>
